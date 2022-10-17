@@ -1,0 +1,28 @@
+.imageTaskContainer .collapsible-content.gallery .imgItem {
+  width: 25%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0;
+}
+.imageTaskContainer .collapsible-content.gallery .imgContainer {
+  width: 100%;
+}
+.imageTaskContainer .collapsible-content.gallery img {
+  width: 100%;
+  height: auto;
+}
+.imageTaskContainer .collapsible-content {
+  display: block !important;
+}
+
+#preview, .imageTaskContainer {
+    min-width: 0;
+}
+
+.preview-prompt,
+.taskConfig {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 18%;
+}
