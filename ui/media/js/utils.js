@@ -29,6 +29,7 @@ function toggleCollapsible(element) {
     var handle = element.querySelector(".collapsible-handle");
     collapsibleHeader.classList.toggle("active")
     let content = getNextSibling(collapsibleHeader, '.collapsible-content')
+    content.classList.toggle("gallery")
     if (content.style.display === "block") {
         content.style.display = "none"
         handle.innerHTML = '&#x2795;' // plus

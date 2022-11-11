@@ -833,7 +833,7 @@ function createTask(task) {
                             <button class="secondaryButton stopTask"><i class="fa-solid fa-trash-can"></i> Remove</button>
                             <div class="preview-prompt collapsible active"></div>
                             <div class="taskConfig">${taskConfig}</div>
-                            <div class="collapsible-content" style="display: block">
+                            <div class="collapsible-content gallery" style="display: block">
                                 <div class="outputMsg"></div>
                                 <div class="progressBar"></div>
                                 <div class="img-preview">
