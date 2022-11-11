@@ -1,13 +1,13 @@
-.imageTaskContainer .collapsible-content.gallery .imgItem {
+.imageTaskContainer .collapsible-content.active .imgItem {
   width: 25%;
   max-width: 200px;
   max-height: 200px;
   margin: 0;
 }
-.imageTaskContainer .collapsible-content.gallery .imgContainer {
+.imageTaskContainer .collapsible-content.active .imgContainer {
   width: 100%;
 }
-.imageTaskContainer .collapsible-content.gallery img {
+.imageTaskContainer .collapsible-content.active img {
   width: 100%;
   height: auto;
 }
